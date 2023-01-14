@@ -70,6 +70,5 @@ const add = function (...numbers) {
 
 const x = [23,5,7];
 add(...x)    
-
 restaurant.orderPizza('mushrooms','Onion','olives','spinach');
 restaurant.orderPizza('mushrooms')
