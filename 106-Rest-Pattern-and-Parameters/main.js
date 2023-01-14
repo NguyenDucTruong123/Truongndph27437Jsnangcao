@@ -41,8 +41,10 @@ const restaurant = {
 };
 
 // bởi vì ở phía bên phải của
+// SPREAD, because on RIGHT side of =
 const arr = [1, 2, ...[3, 4]];
-
+//Rest, because on LEFT side of =
+// bởi vì ở phía bên trái của
 const [a, b, ...orthers] = [1, 2, 3, 4, 5]
 console.log(a, b, orthers);
 
