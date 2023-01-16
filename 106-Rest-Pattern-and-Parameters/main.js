@@ -1,4 +1,5 @@
 'use strict';
+
 const restaurant = {
     name: 'Classico Italiano',
     location: 'Via Angelo Tavanti 23, Firenze, Italy',
@@ -70,6 +71,5 @@ const add = function (...numbers) {
 
 const x = [23,5,7];
 add(...x)    
-
 restaurant.orderPizza('mushrooms','Onion','olives','spinach');
 restaurant.orderPizza('mushrooms')
