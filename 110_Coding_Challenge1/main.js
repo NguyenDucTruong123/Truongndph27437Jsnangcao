@@ -30,7 +30,7 @@ const game = {
         ],
     ],
     score: '4:0',
-    scored: ['Lewandowski', 'Gnarby', 'Lewandowski', 'Hummels','Hummels'],
+    scored: ['Lewandowski', 'Gnarby', 'Lewandowski', 'Hummels', 'Hummels'],
     date: 'Nov 9th, 2037',
     odds: {
         team1: 1.33,
