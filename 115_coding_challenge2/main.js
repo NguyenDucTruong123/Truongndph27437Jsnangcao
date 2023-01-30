@@ -53,6 +53,6 @@ console.log(average);
 
 // 3. 
 for (const [team, odd] of Object.entries(game.odds)) {
-    const teamStr = team === 'x' ? 'draw' : `victory ${game[team]}`;
+    const teamStr = team === 'x' ? 'draw' : `victory ${game[team]}`; // Nếu đội nào bằng x thì kết quả trả về hòa còn không thì trả về tên đội
     console.log(`Odd of ${teamStr} ${odd}`);
 }
