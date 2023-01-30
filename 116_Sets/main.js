@@ -60,7 +60,9 @@ console.log(ordersSet.has('Bread'));
 ordersSet.add('Garlic Bread');
 ordersSet.add('Garlic Bread');// thêm Garleic Bread hai lần nhưng set chỉ lấy một 
 ordersSet.delete('Risotto');// Xóa
-// ordersSet.clear(); clear 
+// ordersSet.clear(); clear  toàn bộ
+
+
 console.log(ordersSet);
 
 for (const order of ordersSet) console.log(order);
