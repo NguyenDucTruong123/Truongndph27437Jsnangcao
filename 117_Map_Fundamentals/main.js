@@ -57,12 +57,12 @@ console.log(rest.get('name'));
 console.log(rest.get(true));
 console.log(rest.get(1));
 
-const time = 8;
+const time = 22;
 console.log(rest.get(time > rest.get('open') && time < rest.get('close')));
 
 console.log(rest.has('categories'));
 rest.delete(2);
-// rest.clear();
+// rest.clear(); clear tat ca
 
 const arr = [1, 2];
 rest.set(arr, 'Test');
