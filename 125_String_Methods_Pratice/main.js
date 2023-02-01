@@ -11,4 +11,5 @@ for (const flight of flights.split('+')) {
     ${getCode(to)} 
     (${time.replace(':', 'h')})`.padStart(36);
     console.log(output);
+    console.log
 }
